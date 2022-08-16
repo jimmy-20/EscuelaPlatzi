@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'escuelaplatzi'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_774187C0FBCA47B4914D1C1E2FB93A88 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A1E3B99A563B4563BB3E0F7215B8DA02 }}
           package: .
