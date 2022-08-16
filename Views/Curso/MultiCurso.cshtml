@@ -1,0 +1,11 @@
+@model List<Curso>
+
+@{
+    ViewData["Message"] = "Información Curso";
+    Layout = "Simple";
+    
+}
+
+<strong>Desde la vista parcial</strong>
+
+<partial name = "ListaObjetoEscuela" model= "@Model"/>

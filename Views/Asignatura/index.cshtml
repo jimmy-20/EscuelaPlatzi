@@ -1,0 +1,12 @@
+@model List<Asignatura>
+
+@{
+    ViewData["Message"] = "Información Asignatura";
+    Layout = "Simple";
+}
+
+<h1>@ViewData["Message"]</h1>
+
+<partial name = "MultiAsignatura" model= "@Model" />
+
+<!-- <p>@ViewBag.Fecha</p> -->

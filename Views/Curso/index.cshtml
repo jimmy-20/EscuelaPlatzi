@@ -1,0 +1,10 @@
+@model List<Curso>
+
+@{
+    ViewData["Message"] = "Información Curso";
+    Layout = "Simple";
+}
+
+<h1>@ViewData["Message"]</h1>
+
+<partial name = "MultiCurso" model= "@Model" />

@@ -1,0 +1,20 @@
+@model Asignatura
+@{
+    ViewData["Title"] = "Crear nueva Asignatura";
+    Layout = "Simple";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div asp-validation-summary="All"></div>
+<form method="post">
+    <div>
+        <label asp-for="Nombre"></label>
+        <input asp-for="Nombre"/>
+    </div>
+    <div>
+        <label asp-for="CursoId"></label>
+        <input asp-for="CursoId"/>
+    </div>
+    <input type="submit">
+</form>
